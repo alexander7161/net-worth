@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NetWorth Privacy Policy</title>
+    <meta name="description" content="How the NetWorth app handles your data: your balances stay encrypted on your device." />
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="../"><img src="../assets/icon.png" alt="" />NetWorth</a>
+        <a href="../support/">Support</a>
+        <a href="../privacy/" aria-current="page">Privacy</a>
+      </nav>
+    </header>
+    <main class="doc">
+      <h1>NetWorth Privacy Policy</h1>
+      <p class="meta">Effective 10 October 2026</p>
+
+      <p>
+        NetWorth is a net worth tracker for iPhone and Android, made by Alexander L Davis
+        ("I", "me"). It is built so that your financial data stays with you. This policy explains
+        what the app stores, the little it sends anywhere, and why.
+      </p>
+
+      <ul class="summary">
+        <li><strong>Your balances, assets, categories, notes and goals never leave your device</strong> unless you turn on backup to your own iCloud Drive or Google Drive, and then only encrypted.</li>
+        <li><strong>No account, no sign-up, no bank logins.</strong> I have no server that stores your data.</li>
+        <li><strong>I collect anonymous usage statistics and crash reports</strong> to fix bugs and improve the app. They contain no amounts and are not linked to who you are.</li>
+        <li><strong>No ads, no tracking across other apps, and no selling of data.</strong></li>
+      </ul>
+
+      <h2>Data that stays on your device</h2>
+      <p>
+        Everything you enter (your assets and debts, their balances, categories, entries, notes,
+        goals, financial independence settings and app settings) is kept in a database on your
+        device. The database is encrypted, and its key is held in your device's secure keychain.
+        I can't see any of it.
+      </p>
+      <p>
+        If you turn on the app lock, Face ID, Touch ID, fingerprint or your passcode is checked by
+        your device's operating system. NetWorth never receives your biometric data.
+      </p>
+
+      <h2>Backups to your own cloud</h2>
+      <p>
+        If you turn on backup, NetWorth saves an encrypted copy of the database once a week to your
+        own iCloud Drive (iPhone) or to a private app folder in your own Google Drive (Android). On
+        Android you sign in with Google for this, and the app asks only for access to its own app
+        folder, not the rest of your Drive. The key that unlocks the backup is kept separately in your
+        iCloud Keychain or Google account, so a new phone signed in to the same account can restore
+        it. The backup is stored by Apple or Google under their privacy policies; I have no access
+        to it. You can turn backup off at any time.
+      </p>
+      <p>
+        Exports and CSV files you create are saved or shared wherever you choose. They are not
+        encrypted, so keep them somewhere safe.
+      </p>
+
+      <h2>Data the app sends</h2>
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr><th>What</th><th>Sent to</th><th>Why</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Usage statistics: which screens are opened and events such as "saved an entry" or "turned on the reminder", with a random app installation ID, device model, operating system and app version, and approximate country</td>
+              <td><a href="https://firebase.google.com/support/privacy">Google Analytics for Firebase</a></td>
+              <td>To understand which features are used and improve the app. No amounts, asset names or notes are included. In the EU, EEA, UK and Switzerland the app asks before sending any; everywhere you can turn it off in Settings → Security &amp; privacy.</td>
+            </tr>
+            <tr>
+              <td>Crash reports and performance data: the error, the screens and taps leading up to it, device model, operating system and app version</td>
+              <td><a href="https://sentry.io/privacy/">Sentry</a></td>
+              <td>To find and fix crashes and slow screens. Only sent from released versions of the app, without your IP address.</td>
+            </tr>
+            <tr>
+              <td>A date and a list of currency codes, only if you hold assets in more than one currency</td>
+              <td><a href="https://exchangeratesapi.io/">exchangeratesapi.io</a></td>
+              <td>To get the exchange rates for that date. No amounts are sent.</td>
+            </tr>
+            <tr>
+              <td>Purchases of NetWorth Pro</td>
+              <td>Apple App Store or Google Play</td>
+              <td>Payments are handled entirely by Apple or Google. I never see your payment details. The app only checks with the store whether you have Pro.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Like any internet request, these services can see your device's IP address when the app
+        connects to them. None of this data is linked to your name, email or financial data, and
+        none of it is used to track you across other apps or websites or to show you ads. The app
+        doesn't use your device's advertising identifier.
+      </p>
+
+      <h2>Reminders</h2>
+      <p>
+        The optional monthly reminder is a notification scheduled on your device. It doesn't use a
+        push notification server.
+      </p>
+
+      <h2>How long data is kept</h2>
+      <p>
+        Data on your device stays until you delete it or remove the app. Things you delete go to
+        Recently deleted, where you can restore them or remove them for good. Analytics and crash
+        data are kept by Google and Sentry for a limited period under their own retention settings,
+        and then deleted.
+      </p>
+
+      <h2>Your choices and rights</h2>
+      <ul>
+        <li>You can delete any of your data in the app, or all of it by removing the app and turning off backup.</li>
+        <li>You can turn backup off, and delete the backup from your iCloud Drive or Google Drive settings.</li>
+        <li>You can stop sharing usage statistics in Settings → Security &amp; privacy. Turning it off also deletes the app's analytics ID on your device.</li>
+        <li>
+          Depending on where you live (for example under the GDPR in the EU and UK, or the CCPA in
+          California), you may have the right to access, correct or delete personal data held about
+          you. Because I don't hold your financial data, and the statistics and crash reports are
+          not linked to your identity, there is usually nothing I can look up. If you have a request,
+          email me and I'll help as far as I can.
+        </li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>
+        NetWorth is not directed at children under 13, and I don't knowingly collect personal data
+        from them.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If this policy changes, the new version will be posted on this page with a new effective
+        date. Significant changes will also be mentioned in the app's release notes.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about privacy, or a request about your data:
+        <a href="mailto:alexanderdavis.net+networth@googlemail.com">alexanderdavis.net+networth@googlemail.com</a>
+      </p>
+    </main>
+    <footer class="site-footer">
+      <div class="inner">
+        <span class="copy">© 2026 Alexander L Davis</span>
+        <a href="../support/">Support</a>
+        <a href="../privacy/">Privacy policy</a>
+        <a href="mailto:alexanderdavis.net+networth@googlemail.com">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>
