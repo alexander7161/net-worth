@@ -21,10 +21,10 @@ The app links to the privacy policy from the Pro screen (`PRIVACY_URL` in
 Connect and Google Play Console. When the app starts sending or storing data differently, update
 the page and its effective date.
 
-## App Store link
+## Store links
 
-The App Store button on the landing page says "Coming soon" until the app is live. Replace its
-`href` with the App Store URL and remove the `disabled` class.
+- App Store: https://apps.apple.com/app/networth-money-tracker/id6819868292
+- Google Play: https://play.google.com/store/apps/details?id=com.networthrn
 
 ## Preview locally
 
